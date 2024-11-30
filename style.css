@@ -1,0 +1,464 @@
+* {
+    font-family: "Inter", sans-serif;
+    /* margin: 0; */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.section-1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 125%;
+    letter-spacing: 0em;
+    color: #1f1f1f;
+    width: 60%;
+}
+
+.malumot {
+    display: flex;
+    gap: 41px;
+    position: relative;
+    left: 840px;
+    margin-bottom: 122px;
+}
+
+.p-1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+    width: 22%;
+}
+
+.p-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+    width: 22%;
+}
+
+.title-2 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 125%;
+    letter-spacing: 0em;
+    color: #1f1f1f
+}
+
+.title-2 span {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 139%;
+    letter-spacing: 0em;
+    color: #1f1f1f;
+}
+
+.data-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.col img {
+    width: 100%;
+}
+
+.card-line {
+    margin-top: 20px;
+}
+
+
+.card-title {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 146%;
+    letter-spacing: 0.01em;
+    color: #464542;
+}
+
+.card-subtitle {
+    margin-top: 5px;
+    margin-bottom: 65px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #6d6b67;
+    font-family: "Libre Baskerville", serif;
+}
+
+.btn {
+    background-color: #000;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin-bottom: 90px;
+}
+
+.growing {
+    margin-top: 100px;
+    padding: 80px 0;
+    background: #f7f6f3;
+}
+
+.growing-title {
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 134%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.sec-title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 141%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+    font-family: "Libre Baskerville", serif;
+}
+
+.growing-subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.cards-title {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: 0em;
+    color: #1f1f1f;
+    font-family: "Libre Baskerville", serif;
+}
+
+.cards-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.growing .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.growing-left {
+    width: 50%;
+}
+
+.growing-right {
+    width: 50%;
+}
+
+.growing .growing-grid {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.middle-section {
+    margin: 80px 0;
+}
+
+.middle-section .middle-p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.middle-section .middle-title {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 158%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.middle-section .middlle-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.middle-section .middle-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+    width: 90%;
+}
+
+.middle-left {
+    width: 75%;
+}
+
+.middle-right {
+    width: 50%;
+}
+
+.mid-right-title-1 {
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 134%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.mid-right-title-2 {
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+    font-family: "Libre Baskerville", serif;
+}
+
+.more {
+    margin-top: 44px;
+    margin-left: 32px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.middle-section .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+}
+
+.middle-section .info {
+    display: flex;
+}
+
+.ADS-section {
+    padding: 80px 0;
+    background: #f7f6f3;
+}
+
+.ADS-title {
+    margin-bottom: 36px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #1f1f1f;
+}
+
+.ADS-title span {
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 154%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #1f1f1f;
+}
+
+.photos-grid {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signIn-section {
+    padding: 40px 0;
+    background: #e0f391;
+}
+
+.sign {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.sign span {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+    font-family: "Libre Baskerville", serif;
+}
+
+.bttn {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    background-color: #1f1f1f;
+    border: 1px solid black;
+    padding: 9px 32px;
+}
+
+.new-info {
+    margin-top: 23.83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ending-section {
+    padding-top: 80px;
+    background: #1f1f1f;
+}
+
+.end-title {
+    margin-top: 63px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 168%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    font-family: "Libre Baskerville", serif;
+}
+
+.end-line {
+    margin-top: 53px;
+    margin-bottom: 94px;
+    border: 1px solid #6d6b67;
+}
+
+.ending-left {
+    width: 50%;
+}
+
+.ending-right {
+    width: 50%;
+}
+
+.list li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.list {
+    list-style: none;
+}
+
+.ending-right {
+    display: flex;
+    gap: 60px;
+}
+
+.ending-right .list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.ending-section .ending-data {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+}
+
+.logo span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 151%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    font-family: "Libre Baskerville", serif;
+}
+
+.logoo {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 151%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.infos {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.infos span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 151%;
+    letter-spacing: 0.02em;
+    color: #a8a6a0;
+}
+
+.ending-logos{
+    display: flex;
+    gap: 700px;
+}
+
+.infos{
+    display: flex;
+    gap: 50px;
+}
