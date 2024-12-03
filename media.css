@@ -11,6 +11,9 @@
         transform: translate(-100%);
         cursor: pointer;
         margin-top: 0;
+    }
+
+    .menu a{
         color: white;
     }
 
