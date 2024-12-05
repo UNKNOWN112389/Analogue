@@ -151,8 +151,22 @@
         width: 100%;
     }
 
-    .list li {
-        width: 100%;
+    .ending-right {
+        display: flex;
+        gap: 0px;
+    }
+
+    .ending-section .ending-data {
+        display: flex;
+        gap: 0px;
+    }
+
+    .ending-right .list li {
+        font-size: 10px;
+    }
+
+    .ending-right .list{
+        padding-left: 30px;
     }
 
     .end-line {
